@@ -1,0 +1,29 @@
+# Public-repository allowlist. Everything is private unless explicitly allowed.
+/*
+
+!/.gitignore
+!/README.md
+!/DATA_POLICY.md
+!/pyproject.toml
+
+!/src/
+/src/**
+!/src/tatyana_v4/
+!/src/tatyana_v4/*.py
+
+!/tests/
+/tests/**
+!/tests/*.py
+
+!/examples/
+/examples/**
+!/examples/*.py
+
+!/.github/
+/.github/**
+!/.github/workflows/
+!/.github/workflows/tests.yml
+
+# AppleDouble/resource-fork files can appear on external volumes.
+**/._*
+**/.DS_Store
